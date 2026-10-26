@@ -1,0 +1,41 @@
+ul {
+    background-color: white;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+li {
+    list-style: none;
+    padding: 18px;
+    border-bottom: 1px solid #dbe4f5;
+    color: #102654;
+    font-size: 16px;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+input[type="checkbox"] {
+    margin-right: 12px;
+}
+
+li span {
+    float: right;
+    color: #3567ff;
+}
+
+li:hover {
+    background-color: #f3f7ff;
+}
+
+body > h1 {
+    color: #102654;
+    margin-top: 30px;
+}
+
+body > p {
+    color: #52658b;
+    font-size: 16px;
+}

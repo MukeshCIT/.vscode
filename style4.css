@@ -1,0 +1,34 @@
+
+/* About Page */
+
+body > h3 {
+    color: #3567ff;
+    margin-top: 30px;
+}
+
+body > ul {
+    background-color: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+body > ul li {
+    list-style: none;
+    padding: 18px;
+    border-bottom: 1px solid #dbe4f5;
+    color: #52658b;
+    font-size: 16px;
+}
+
+body > ul li:last-child {
+    border-bottom: none;
+}
+
+body > ul li strong {
+    color: #102654;
+}
+
+body > ul li:hover {
+    background-color: #f3f7ff;
+}

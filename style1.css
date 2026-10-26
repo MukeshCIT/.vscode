@@ -1,0 +1,198 @@
+body {
+    background-color: aliceblue;
+    color: navy;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 5%;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo span {
+    font-size: 25px;
+}
+
+.logo h2 {
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;   
+}
+
+nav a {
+    text-decoration: none;
+    color: steelblue;
+    font-size: 14px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: 1px solid #3567ff;
+    border-radius: 8px;
+    background-color: white;
+    color: #3567ff;
+}
+
+.theme-toggle {
+    border: none;
+    background-color: #f3f6fc;
+}
+   
+body > div:nth-of-type(1){
+    margin-top: 30px;
+    background-color: #e0eaff;
+    color: #3567ff;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+body > h1 {
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+body > h2:nth-of-type(1) {
+    font-size: 27px;
+    margin-top: 0;
+}
+
+body > p:nth-of-type(1) {
+    color: #5c6f91;
+    font-size: 15px;
+    line-height: 1.6;
+    width: 400px;
+}
+
+body > ul {
+    padding: 0 20px;
+}
+
+body > ul li {
+    margin: 10px 0;
+    color: #425777;
+    font-size: 14px;
+}
+
+body > div:nth-of-type(2) {
+    position: absolute;
+    top: 166px;
+    right: 13%;
+    width: 43%;
+}
+
+body > h2:nth-of-type(2) {
+    font-size: 22px;
+    margin-top: 35px;
+}
+
+body > h2:nth-of-type(3) {
+    font-size: 13px;
+    color: #647696;
+    font-weight: normal;
+}
+
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+form label {
+    font-size: 12px;
+    color: #536685;
+}
+
+form input,
+form select {
+    padding: 12px;
+    border: 1px solid #d9e2f1;
+    border-radius: 7px;
+    background-color: white;
+    width: 120px;
+}
+
+form > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+form button {
+    background-color: #3567ff;
+    color: white;
+}
+
+body > h2:nth-of-type(2) {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+.step {
+    width: 22%;
+}
+
+.step-icon {
+    background-color: #e9e5ff;
+    padding: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.step h3 {
+    font-size: 14px;
+}
+
+.step p {
+    color: #617392;
+    font-size: 12px;
+}
+
+.arrow {
+    padding-top: 15px;
+}
+
+footer {
+    text-align: center;
+    color: #71819d;
+    padding: 15px;
+    font-size: 13px;
+}
+
+body{
+    padding-right: 2x;
+}
